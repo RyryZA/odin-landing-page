@@ -1,35 +1,54 @@
+/* ----------------------- Global ----------------------- */
 * {
     font-family: Roboto;
     margin: 0;
     padding: 0;
 }
 
+
+/* ----------------------- Colours ----------------------- */
+
 .bg-base {
     background-color:#1f2937;
 }
 
+
+/* ----------------------- Sections ----------------------- */
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+container {
+    max-width: 900px;
+}
+
+
+
+/* ----------------------- Utility ----------------------- */
+.space-between {
+    justify-content: space-between;
+}
 .flex-row {
     display:flex;
     flex-direction: row;
 }
-
-container {
-    width: 900px;
-}
-
-.space-between {
-    justify-content: space-between;
-}
-
-.nav-links{
-    color: #e5e7eb;
-    gap: 2rem;
-    font-size: 18px;
-    font-weight: 400;
-}
+/* ----------------------- Elements ----------------------- */
 
 .header {
     padding: 1rem;
+}
+
+.nav-links {
+    color: #e5e7eb;
+    gap: 2rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.hero {
+    padding: 2rem;
 }
 
 .header-logo {
